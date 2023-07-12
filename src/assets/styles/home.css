@@ -1,0 +1,100 @@
+/* style Navbar */
+.navbar {
+    padding-right: 0px !important;
+}
+
+/* style Section 1 */
+.bg-sec1 {
+    position: absolute;
+    right: 70px;
+    z-index: -1;
+    width: 920px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bg-sec1 {
+        right: 0px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .bg-sec1 {
+        display: none;
+    }
+}
+
+/* style Section 2 */
+.box,
+.title,
+.icon {
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.box:hover {
+    border: 1px solid #FFCE07;
+}
+
+.box:hover .title {
+    color: #FFCE07;
+}
+
+.box:hover .icon {
+    filter: brightness(0);
+}
+
+/* style Section 3 */
+.logo-color {
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.box-logo:hover .logo-color {
+    filter: grayscale(0%);
+}
+
+/* style Section 7 */
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet-active {
+    --swiper-theme-color: orange;
+}
+
+/* style Section 8 */
+.btn-consul {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 35px;
+    background-color: #FFCE07;
+    box-shadow: 0 0 0 4px #FFCE07, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .1s ease-in-out, .4s color;
+    font-weight: 600;
+}
+
+.btn-consul:active {
+    transform: translateX(0.1em) translateY(0.1em);
+    box-shadow: 0 0 0 4px #FFCE07, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}
