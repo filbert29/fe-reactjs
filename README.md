@@ -57,44 +57,6 @@ npm run lint
 
 Runs the linter to analyze your code for potential errors and coding style issues.
 
-### Test
-
-```bash
-npm run test
-```
-
-Runs the test runner in interactive watch mode. By default, it launches the test runner in the interactive watch mode.
-
-## Folder Structure
-
-The project structure follows a typical React project layout:
-
-```
-.
-├── public
-│   ├── favicon.ico
-│   └── index.html
-├── src
-│   ├── components
-│   ├── styles
-│   ├── utils
-│   ├── App.jsx
-│   ├── index.jsx
-│   └── ...
-├── .gitignore
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-- `public`: Contains static assets such as HTML files or images.
-- `src`: Contains the application's source code.
-- `components`: Stores reusable React components.
-- `styles`: Contains global styles and styling utilities.
-- `utils`: Holds utility functions and helper modules.
-- `App.jsx`: The root component of the application.
-- `index.jsx`: The entry point of the application.
-
 ## Customizing Configuration
 
 You can customize the Vite configuration by modifying the `vite.config.js` file. Refer to the [Vite documentation](https://vitejs.dev/guide/) for more information on configuring Vite.
@@ -105,7 +67,3 @@ To learn more about React and Vite, check out the following resources:
 
 - [React documentation](https://reactjs.org/)
 - [Vite documentation](https://vitejs.dev/)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
